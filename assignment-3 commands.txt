@@ -1,0 +1,36 @@
+https://github.com/vdhul1/assignment-3
+
+git init
+git remote add origin https://github.com/vdhul1/assignment-3.git
+git remote
+git branch develop
+nano main.txt
+git status
+git add.
+git add .
+git commit -m "main.txt 1st commit"
+git status
+git branch
+git branch develop
+git branch f1
+git branch f2
+git branch
+git checkout develop
+nano develop.txt
+git status
+git add .
+git commit -m "develop.txt commit from develop branch"
+git checkout f1
+nano f1.txt
+git add .
+git commit -m "f1 commit in f1 branch"
+git checkout f2
+nano f2.txt
+git status
+git add .
+git commit -m "f2 commit in f2 branch"
+git checkout master
+git push origin master develop f1 f2
+git checkout master
+git branch -d f2 to delete the branch locally
+git push origin --delete f2 to delete the branch remote
